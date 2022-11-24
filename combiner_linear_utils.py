@@ -5,7 +5,6 @@ from scipy.linalg import sqrtm
 
 from sklearn.decomposition import PCA
 from sklearn.linear_model import LinearRegression, Lasso, Ridge
-from chameqs_magenta.factor.single_factor.factor_definition.operator_utils import truncnormalize
 
 def get_flatten_cube(factor_value_cube):
     K = factor_value_cube.shape[2]
